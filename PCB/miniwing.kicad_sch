@@ -1,0 +1,10390 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d633af04-c6ac-496a-95e8-d38b6b74da1f")
+	(paper "A4")
+	(title_block
+		(title "Miniwing")
+		(date "2025-01-25")
+		(rev "1")
+		(company "JJS")
+	)
+	(lib_symbols
+		(symbol "Device:D_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SKHCBKA010:SKHCBKA010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 4.826 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SKHCBKA010"
+				(at 4.826 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SKHCBKA010"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.3"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "688-SKHCBKA010"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SKHCBKA010"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SKHCBKA010_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 16.51 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 0 180)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -2.54 180)
+					(length 5.08)
+					(name "NO_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mcu:rp2040-zero"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "rp2040-zero"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "rp2040-zero_0_1"
+				(rectangle
+					(start -10.16 11.43)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "rp2040-zero_1_1"
+				(pin bidirectional line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -16.51 90)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -16.51 90)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -16.51 90)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -16.51 90)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -16.51 90)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 201.93 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e09fb3-e767-4beb-956d-0f3a937fb8c9")
+	)
+	(junction
+		(at 200.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e632e54-9884-4546-baa3-20c2130b41b7")
+	)
+	(junction
+		(at 45.72 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff0d227-b95e-4d6a-9240-0a8634b97787")
+	)
+	(junction
+		(at 200.66 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "265c9a73-8ca9-4b0a-b760-a9c1562628fd")
+	)
+	(junction
+		(at 46.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2950454c-3165-43b9-8ea2-79ac50085508")
+	)
+	(junction
+		(at 95.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "372e2515-5fde-4cd4-809f-997d9f0d6fb3")
+	)
+	(junction
+		(at 248.92 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46cf00e1-6984-45d5-af3f-3fd126ea074d")
+	)
+	(junction
+		(at 93.98 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d154706-8ef4-4a42-bdc1-df1ef75f8843")
+	)
+	(junction
+		(at 224.79 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5005259e-3482-4413-baf1-5f65198836f0")
+	)
+	(junction
+		(at 250.19 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59c2c99e-66f1-49dd-b1db-18301fb9c500")
+	)
+	(junction
+		(at 71.12 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e60da6c-ca19-4fae-be6d-5dd575cf3924")
+	)
+	(junction
+		(at 200.66 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe9aaf9-5a98-4c55-bf4e-e68007363d07")
+	)
+	(junction
+		(at 153.67 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b83f0a1-7487-4619-b20d-c8164cd1f918")
+	)
+	(junction
+		(at 224.79 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "712149ad-a433-4c6d-b0c4-d9a1cf7026d2")
+	)
+	(junction
+		(at 71.12 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73b21b99-505a-481c-877a-142216f70b66")
+	)
+	(junction
+		(at 118.11 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c25aea2-b2a8-4b67-a413-838cafa91a41")
+	)
+	(junction
+		(at 95.25 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd8e2f7-1963-4f1a-a671-e63ef6978ae3")
+	)
+	(junction
+		(at 177.8 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f73a52-3f1f-45ff-b26a-092117418dae")
+	)
+	(junction
+		(at 46.99 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859680f8-bdea-47f4-83c6-202408078f31")
+	)
+	(junction
+		(at 95.25 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f42759f-c347-4f5f-b747-d8fd98259a36")
+	)
+	(junction
+		(at 142.24 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8a03c9-aeb7-4ef2-a3db-daee691c967d")
+	)
+	(junction
+		(at 118.11 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe4df6d-897c-4104-8410-704c17b80580")
+	)
+	(junction
+		(at 248.92 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b43e16f2-5798-40fe-882c-4e44ae787bf2")
+	)
+	(junction
+		(at 46.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5a3a78d-8aba-474f-82d3-45a89c7c14c8")
+	)
+	(junction
+		(at 226.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc48a9e7-e33f-4d3f-bd7a-8cdeb4e079a9")
+	)
+	(junction
+		(at 142.24 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bca305ee-250c-41f3-857d-07348f2e2694")
+	)
+	(junction
+		(at 177.8 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1fb3010-c29e-413e-bdf4-f35c6319698e")
+	)
+	(junction
+		(at 153.67 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4f961fe-1fc1-4ccd-9660-4da50367a6df")
+	)
+	(junction
+		(at 224.79 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f29340-9d3a-4298-8ba4-e316483f72ef")
+	)
+	(junction
+		(at 71.12 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f2491a-a301-4e5e-aa0d-157e96b4c26f")
+	)
+	(junction
+		(at 248.92 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f657adb8-b411-4d8b-b21c-807f858e1229")
+	)
+	(junction
+		(at 69.85 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f933a533-c662-4dbd-9238-db00f388de1f")
+	)
+	(no_connect
+		(at 273.05 48.26)
+		(uuid "03a009b3-63b3-46fd-b5c4-b7224df99a5c")
+	)
+	(no_connect
+		(at 148.59 102.87)
+		(uuid "042ff38e-ff4d-4984-8ae6-4d51a761c998")
+	)
+	(no_connect
+		(at 203.2 38.1)
+		(uuid "0674d6a7-ad3b-4af5-816f-c5c131e5a68f")
+	)
+	(no_connect
+		(at 176.53 60.96)
+		(uuid "071a7c2c-1ebe-4dfa-a6c7-015c5a0de084")
+	)
+	(no_connect
+		(at 224.79 22.86)
+		(uuid "0a8311bf-bfbb-4637-ac6b-f5ffea7dfba9")
+	)
+	(no_connect
+		(at 273.05 22.86)
+		(uuid "0d0de60d-450f-49b2-b307-9007490bba55")
+	)
+	(no_connect
+		(at 154.94 25.4)
+		(uuid "0f2f977d-9946-4bed-b846-54545f6bd38d")
+	)
+	(no_connect
+		(at 22.86 48.26)
+		(uuid "13f5995c-795e-4848-ba41-d640d540ce6e")
+	)
+	(no_connect
+		(at 71.12 22.86)
+		(uuid "1da77e79-1561-4427-86cf-83528b9ce9bf")
+	)
+	(no_connect
+		(at 68.58 50.8)
+		(uuid "1f9dd211-b41b-453c-94a0-b63294f125cf")
+	)
+	(no_connect
+		(at 119.38 35.56)
+		(uuid "20274f30-a7de-48db-ae7e-966112d1532c")
+	)
+	(no_connect
+		(at 95.25 48.26)
+		(uuid "2a70af80-e68e-40b2-9b7f-af38dc280087")
+	)
+	(no_connect
+		(at 46.99 35.56)
+		(uuid "2d2b9b83-513c-43c7-9fde-d27c7cf474a8")
+	)
+	(no_connect
+		(at 154.94 63.5)
+		(uuid "2d69457d-5f42-4b86-afa3-cfb2c79e6f6b")
+	)
+	(no_connect
+		(at 116.84 38.1)
+		(uuid "2d845a7e-53a6-44a4-a7e3-29cb29c54a85")
+	)
+	(no_connect
+		(at 224.79 35.56)
+		(uuid "3100d919-e05c-43b3-98ea-042854deb96b")
+	)
+	(no_connect
+		(at 92.71 50.8)
+		(uuid "36755686-71f8-4e1a-aecb-7aec470c1bb4")
+	)
+	(no_connect
+		(at 176.53 35.56)
+		(uuid "39348871-106e-41ab-afe8-158d5defbe71")
+	)
+	(no_connect
+		(at 251.46 38.1)
+		(uuid "397031c1-e2a1-4a8a-acbb-f02a49291032")
+	)
+	(no_connect
+		(at 227.33 25.4)
+		(uuid "3b96ab5f-044d-42a5-ad19-26968ba0921e")
+	)
+	(no_connect
+		(at 116.84 63.5)
+		(uuid "3c36dec1-a1a2-462c-b481-35634906d23f")
+	)
+	(no_connect
+		(at 116.84 50.8)
+		(uuid "3d57e815-4dda-4033-b87d-eba7c3f023c5")
+	)
+	(no_connect
+		(at 119.38 22.86)
+		(uuid "3da1246f-2185-4cab-819a-e8e72aa12b71")
+	)
+	(no_connect
+		(at 200.66 22.86)
+		(uuid "3ec425f6-0299-4e9e-9a6b-f086f45a6035")
+	)
+	(no_connect
+		(at 200.66 35.56)
+		(uuid "4929b3a6-a359-4302-9e60-d4078b8cc589")
+	)
+	(no_connect
+		(at 71.12 48.26)
+		(uuid "4b87e34e-7cc5-4942-afe4-799b14577349")
+	)
+	(no_connect
+		(at 140.97 50.8)
+		(uuid "501f54fc-7838-4288-b0d8-7e8cfc7c0661")
+	)
+	(no_connect
+		(at 179.07 63.5)
+		(uuid "522b3a60-a407-47cb-9b3d-c133b5837d6f")
+	)
+	(no_connect
+		(at 248.92 35.56)
+		(uuid "55e4ff97-73f8-4893-ab56-cb8c4b698e6a")
+	)
+	(no_connect
+		(at 119.38 48.26)
+		(uuid "5728c77c-09fc-4eaa-b559-98993b852f94")
+	)
+	(no_connect
+		(at 200.66 60.96)
+		(uuid "58a6376d-7862-4c1b-af8a-f4315104aed0")
+	)
+	(no_connect
+		(at 273.05 35.56)
+		(uuid "5ad16602-c607-45b6-9920-9ba711521d84")
+	)
+	(no_connect
+		(at 71.12 35.56)
+		(uuid "6113adfc-a848-452d-98e1-5e83ff06b874")
+	)
+	(no_connect
+		(at 116.84 25.4)
+		(uuid "639970bb-84f9-4229-a0ec-71315eed7a0e")
+	)
+	(no_connect
+		(at 92.71 38.1)
+		(uuid "6d987fea-b1b8-4778-90b7-95db1b5f81b1")
+	)
+	(no_connect
+		(at 179.07 38.1)
+		(uuid "73b1a6e7-6249-4f8d-b691-36cb94224127")
+	)
+	(no_connect
+		(at 203.2 50.8)
+		(uuid "75d3e34d-ed85-46c2-a707-33c9a94f08bb")
+	)
+	(no_connect
+		(at 95.25 35.56)
+		(uuid "79ea0f23-e639-48e6-8ca1-78280f27053e")
+	)
+	(no_connect
+		(at 119.38 60.96)
+		(uuid "7b4d8bcf-6073-4d86-a09b-c263f9b92c41")
+	)
+	(no_connect
+		(at 176.53 48.26)
+		(uuid "7e49c30d-771c-4bc5-921d-3d3d04516680")
+	)
+	(no_connect
+		(at 176.53 22.86)
+		(uuid "85261180-b887-4ea3-be5d-95e5ceada4f8")
+	)
+	(no_connect
+		(at 46.99 48.26)
+		(uuid "8761421a-a4ac-45c3-b3d8-f459ea655c0b")
+	)
+	(no_connect
+		(at 95.25 60.96)
+		(uuid "8e63b40d-62ca-42d9-a793-59819d76cd41")
+	)
+	(no_connect
+		(at 140.97 25.4)
+		(uuid "8edd40a3-69a0-4bd1-bcce-3e22a5d9ec10")
+	)
+	(no_connect
+		(at 151.13 102.87)
+		(uuid "8f325f55-61ff-4bbf-8cb5-8c1ede504931")
+	)
+	(no_connect
+		(at 140.97 38.1)
+		(uuid "90a89bf4-5806-4740-8096-44170d0a3884")
+	)
+	(no_connect
+		(at 200.66 48.26)
+		(uuid "938dca78-cb04-4d35-a25d-30c42f3de294")
+	)
+	(no_connect
+		(at 140.97 63.5)
+		(uuid "a20bc11b-e3e3-4e39-a152-74e5885c73d4")
+	)
+	(no_connect
+		(at 133.35 82.55)
+		(uuid "a321b23f-42f8-48fb-96ca-206920773663")
+	)
+	(no_connect
+		(at 227.33 50.8)
+		(uuid "a633a167-b247-449f-8ea5-a2f46c5fcec5")
+	)
+	(no_connect
+		(at 154.94 38.1)
+		(uuid "ac6f1dd7-ceba-44ef-82a0-eaa08c43081a")
+	)
+	(no_connect
+		(at 44.45 38.1)
+		(uuid "ad43a3c8-f61e-4fed-8be9-9a110d9355bb")
+	)
+	(no_connect
+		(at 179.07 25.4)
+		(uuid "b04313ab-9c90-4289-a617-f6704bb31618")
+	)
+	(no_connect
+		(at 203.2 25.4)
+		(uuid "c0c0860c-2348-43ad-9927-1ccb055d7d13")
+	)
+	(no_connect
+		(at 22.86 35.56)
+		(uuid "c550b5a6-d320-40e0-8b59-a355e6890904")
+	)
+	(no_connect
+		(at 251.46 50.8)
+		(uuid "cfd1bbb2-632a-4389-a2b8-c16df4eec073")
+	)
+	(no_connect
+		(at 68.58 38.1)
+		(uuid "d3de4ae0-9836-4cc7-aacd-6d47ecd637b0")
+	)
+	(no_connect
+		(at 133.35 80.01)
+		(uuid "d617f3cf-5749-468d-8e45-b57f710b7f7c")
+	)
+	(no_connect
+		(at 248.92 48.26)
+		(uuid "d7be6798-ffee-4d92-8319-d6e19c18441d")
+	)
+	(no_connect
+		(at 95.25 22.86)
+		(uuid "d8f83d84-ef38-4102-916d-20bf0f9fb890")
+	)
+	(no_connect
+		(at 133.35 77.47)
+		(uuid "e129b3be-d770-42c8-9ba9-9277812bfc43")
+	)
+	(no_connect
+		(at 46.99 22.86)
+		(uuid "e2f9fd89-d6e4-4583-90e0-c57d0fe5cfc9")
+	)
+	(no_connect
+		(at 44.45 50.8)
+		(uuid "e4688f89-98ac-48f0-9a45-fa3e0ca0eb09")
+	)
+	(no_connect
+		(at 154.94 50.8)
+		(uuid "e4a8e82b-6171-4db3-ba04-9f9698d8ce71")
+	)
+	(no_connect
+		(at 68.58 25.4)
+		(uuid "e6e7b560-850f-4867-8e27-4f3d1e6d49a9")
+	)
+	(no_connect
+		(at 22.86 22.86)
+		(uuid "e7cd70c6-cc72-447c-8d8b-3a8cc7d1da8f")
+	)
+	(no_connect
+		(at 227.33 38.1)
+		(uuid "e8fd5845-f49c-4abe-9ec8-03fb98f7866c")
+	)
+	(no_connect
+		(at 92.71 25.4)
+		(uuid "eaccbb4f-3482-45b5-b9d5-cfbb47e7cf2d")
+	)
+	(no_connect
+		(at 251.46 25.4)
+		(uuid "f4961852-433a-4b9a-aabd-c4ef1c1df124")
+	)
+	(no_connect
+		(at 248.92 22.86)
+		(uuid "fa84bf68-19aa-47c5-b53c-dc5f78d818f4")
+	)
+	(no_connect
+		(at 179.07 50.8)
+		(uuid "fb35fba3-2ef2-4d21-94cb-c9e185eaa748")
+	)
+	(no_connect
+		(at 44.45 25.4)
+		(uuid "fbeb305f-2a7d-47e8-8311-8fccbbc6a1a7")
+	)
+	(no_connect
+		(at 224.79 48.26)
+		(uuid "fefa78ef-4663-4434-89ce-a8c9b9089bb6")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014a400c-4c19-410d-9160-98a3bfa6abe8")
+	)
+	(wire
+		(pts
+			(xy 179.07 22.86) (xy 177.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bc610a-603a-406a-b152-9175124acb7d")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0391a6bf-45e8-42c3-b280-84fbaa7feba2")
+	)
+	(wire
+		(pts
+			(xy 224.79 43.18) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ec85d5-9b71-4951-a470-e28bcefb95f1")
+	)
+	(wire
+		(pts
+			(xy 203.2 48.26) (xy 201.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd03e96-0251-4b81-86fe-9e8f8e0f2012")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f44895-0b5a-4a91-9c13-920df2445dec")
+	)
+	(wire
+		(pts
+			(xy 200.66 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14feb003-cfa7-49d7-8492-677b65c95055")
+	)
+	(wire
+		(pts
+			(xy 226.06 22.86) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152e3033-cf3a-4793-bfd0-27c69ab4dc4d")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1535bee9-44a9-4ee8-a5dc-6128862cff0e")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 69.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d833a40-d31e-4d11-8ae1-fa4bcc77cacb")
+	)
+	(wire
+		(pts
+			(xy 227.33 22.86) (xy 226.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1105af-0a43-4d85-95be-0f6aa409b3de")
+	)
+	(wire
+		(pts
+			(xy 250.19 48.26) (xy 251.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20739ccd-4c59-4998-a033-17389b9e543b")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d9bfba-df3f-43f2-8769-412b09693a3f")
+	)
+	(wire
+		(pts
+			(xy 142.24 48.26) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288fda64-e83f-4e02-be8a-60b3c70da2c9")
+	)
+	(wire
+		(pts
+			(xy 140.97 48.26) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a698a9-10be-4294-a1c3-1b9dbf5d2928")
+	)
+	(wire
+		(pts
+			(xy 154.94 35.56) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31495c35-42d5-4425-aae7-6bfcd1d7ec15")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 93.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b95030-ae8e-4a43-94af-fbc6ef858843")
+	)
+	(wire
+		(pts
+			(xy 68.58 48.26) (xy 69.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d5636a-e4ad-4417-885b-1306d53de07b")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3640d5e1-e66b-4909-af25-79f00c779497")
+	)
+	(wire
+		(pts
+			(xy 153.67 22.86) (xy 154.94 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372cc93a-b569-437b-8b4e-826f4d51e25d")
+	)
+	(wire
+		(pts
+			(xy 227.33 48.26) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388ed9e5-efe1-4e7c-9166-52cdb63b2d02")
+	)
+	(wire
+		(pts
+			(xy 203.2 35.56) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420451d8-cd32-45a0-91a4-59cc85af0de6")
+	)
+	(wire
+		(pts
+			(xy 95.25 43.18) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4271a2c4-7421-4699-8e7f-a286d5d1cb62")
+	)
+	(wire
+		(pts
+			(xy 92.71 22.86) (xy 93.98 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c05060-a611-44f7-add8-0d5f12205b63")
+	)
+	(wire
+		(pts
+			(xy 154.94 48.26) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438fee85-e0b2-419a-9767-30fdd1452578")
+	)
+	(wire
+		(pts
+			(xy 95.25 30.48) (xy 119.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48430d6e-2f3d-4dc0-a5fd-2eee180dba46")
+	)
+	(wire
+		(pts
+			(xy 92.71 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2867f0-2e98-406f-a875-f8b285942d42")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f65e9df-9975-4b28-b926-19bae3c44df6")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f95cd7-acab-416c-8e8a-07cf17c5285f")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58248412-de8d-46f1-98e7-ff9e39158fe9")
+	)
+	(wire
+		(pts
+			(xy 46.99 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7d55f9-e106-4cd1-b4e3-cdb0f358a13c")
+	)
+	(wire
+		(pts
+			(xy 250.19 35.56) (xy 250.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee03a1f-96b9-4193-9714-261da84d1de2")
+	)
+	(wire
+		(pts
+			(xy 248.92 43.18) (xy 224.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f66ad8d-edc6-446a-85a7-ae4483307a40")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.26) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f0435c-1190-402b-a84b-b7808683e7b6")
+	)
+	(wire
+		(pts
+			(xy 248.92 30.48) (xy 224.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6254cd17-570b-455f-9f47-74433e8ca5a3")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 118.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aa01f7-b6e2-4fba-92d5-3ad278fa6dfb")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c12fc1-5b4a-480e-b1ec-13643beb4fa4")
+	)
+	(wire
+		(pts
+			(xy 250.19 22.86) (xy 250.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ca9ad6-9986-41d2-a922-adf7f25ae3f9")
+	)
+	(wire
+		(pts
+			(xy 44.45 22.86) (xy 45.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af4597e-369a-4c11-aefc-334944690c76")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb7afff-2495-44bc-b16a-c49b60c968e9")
+	)
+	(wire
+		(pts
+			(xy 45.72 22.86) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e9766c-cd8e-4608-910d-d0fefda08823")
+	)
+	(wire
+		(pts
+			(xy 22.86 30.48) (xy 46.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7838553f-c188-4cb8-9e02-73390ed5f2c4")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7acb965c-b482-4474-998b-86940a1ea0a0")
+	)
+	(wire
+		(pts
+			(xy 224.79 30.48) (xy 200.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f636a5a-e778-469c-b1b2-9a284eb7d1dc")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85805940-7f44-4d9d-a2b0-6a3d8e4f1918")
+	)
+	(wire
+		(pts
+			(xy 153.67 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876b4889-d6bd-4a2e-b727-9b02998f086d")
+	)
+	(wire
+		(pts
+			(xy 200.66 43.18) (xy 176.53 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ada2741-c858-49e1-b56a-60cd33e47a29")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7896c9-9c81-44ca-8954-20156672e264")
+	)
+	(wire
+		(pts
+			(xy 273.05 43.18) (xy 248.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ba9ec6-e846-435a-a685-671b53ec08d5")
+	)
+	(wire
+		(pts
+			(xy 248.92 55.88) (xy 224.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9805478e-0dce-49dc-8d85-0aedb21e9c29")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996934e6-3c75-4d35-9784-54a42aa9a4cd")
+	)
+	(wire
+		(pts
+			(xy 116.84 22.86) (xy 118.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fc1b02-7ec1-44ac-a132-0164bb4d7c4f")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d164eb1-6549-4994-a683-8ff93fa9ccc3")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e62ab6f-7899-4973-8945-df6374c0839c")
+	)
+	(wire
+		(pts
+			(xy 93.98 22.86) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f578a2c-a04b-4a45-9479-665b0f91aa54")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a774aed8-757b-4904-a0bb-15d335717076")
+	)
+	(wire
+		(pts
+			(xy 22.86 43.18) (xy 46.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa880931-b3d6-47b9-a5ff-6d8d8167819f")
+	)
+	(wire
+		(pts
+			(xy 71.12 30.48) (xy 95.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3a4637-2358-4c2c-915c-f4299eff63a0")
+	)
+	(wire
+		(pts
+			(xy 140.97 22.86) (xy 142.24 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3232c9-5cbb-4ed0-b14f-33373133c0ce")
+	)
+	(wire
+		(pts
+			(xy 227.33 35.56) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb66c389-1f45-4b10-a6e5-0fcc9814e03f")
+	)
+	(wire
+		(pts
+			(xy 140.97 35.56) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf09d8ea-8d3e-4fb0-b314-6dad5471ab3a")
+	)
+	(wire
+		(pts
+			(xy 22.86 55.88) (xy 46.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9de280-0a0a-4e4e-a75e-075afa4103c3")
+	)
+	(wire
+		(pts
+			(xy 273.05 55.88) (xy 248.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b6bd5a-df2d-45e1-9d35-3798e87b9fd2")
+	)
+	(wire
+		(pts
+			(xy 224.79 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1226b98-14a6-4bf5-adc3-3e0a11303db9")
+	)
+	(wire
+		(pts
+			(xy 179.07 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fd74ab-0036-4cec-8862-51f45f4bae05")
+	)
+	(wire
+		(pts
+			(xy 153.67 22.86) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe381fe-55a2-4347-bb53-ecaebf5149d0")
+	)
+	(wire
+		(pts
+			(xy 44.45 35.56) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf44c51c-e3ef-4a9b-8627-aedb86c82240")
+	)
+	(wire
+		(pts
+			(xy 153.67 35.56) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5251c0-4495-44f7-af38-2faaebe85725")
+	)
+	(wire
+		(pts
+			(xy 68.58 22.86) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d757e28c-90f4-47f1-aa7a-b09df1b02e08")
+	)
+	(wire
+		(pts
+			(xy 251.46 35.56) (xy 250.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d805f592-41cc-4933-9aea-809acb3409a3")
+	)
+	(wire
+		(pts
+			(xy 250.19 22.86) (xy 251.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d813e186-b09f-4241-a20a-292df5defb74")
+	)
+	(wire
+		(pts
+			(xy 142.24 22.86) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc116f49-974b-4083-b7c7-1a8d122a1ac1")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd073101-f2a5-44c0-a725-f510603be325")
+	)
+	(wire
+		(pts
+			(xy 179.07 60.96) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea90a76-ab7b-44e8-9b48-6f560f561254")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9cb86c-3091-4d9e-a7af-8f380e23ceea")
+	)
+	(wire
+		(pts
+			(xy 93.98 35.56) (xy 93.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b36740-45f9-4cfa-9b32-582b3c49f016")
+	)
+	(wire
+		(pts
+			(xy 248.92 30.48) (xy 273.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58b9ca0-d09e-4c87-a7c7-ee77fadd649e")
+	)
+	(wire
+		(pts
+			(xy 203.2 22.86) (xy 201.93 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0ba448-50c2-4ed5-8c43-82cfef9b9da4")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 177.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20f198a-70c2-47e9-9091-9d019231c3ef")
+	)
+	(wire
+		(pts
+			(xy 46.99 30.48) (xy 71.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f520de-b9b1-425c-9d2d-dccaff64e977")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b3d322-38d4-46c6-ba19-fe696ea8dbc9")
+	)
+	(wire
+		(pts
+			(xy 200.66 30.48) (xy 176.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f524e027-f9ed-4ec8-b4e0-f4b38effa676")
+	)
+	(wire
+		(pts
+			(xy 201.93 35.56) (xy 201.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78fa68e-6b9c-4859-ae76-c3e0bc7b7560")
+	)
+	(wire
+		(pts
+			(xy 201.93 22.86) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4a04e9-d895-4c24-ba63-e952103540be")
+	)
+	(global_label "COL-01"
+		(shape input)
+		(at 69.85 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03970d50-41af-4db2-b922-6fb44406debc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-13"
+		(shape input)
+		(at 158.75 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0641070e-6a33-413b-bd17-979513305b7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3552 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-13"
+		(shape input)
+		(at 177.8 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07e2f7b0-172f-44da-8a77-3a9cd0c92243")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-14"
+		(shape input)
+		(at 158.75 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a245f5d-484c-42d7-ad0b-587d29ba2cc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3552 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-02"
+		(shape input)
+		(at 22.86 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e0ae8ba-f7ca-42bb-a758-d48b49f0c20e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.8315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-03"
+		(shape input)
+		(at 95.25 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12640b77-c23a-419c-a668-3c17b0afd29c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2215 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-13"
+		(shape input)
+		(at 200.66 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a7db8f2-3e32-4eb0-945e-d624acda85b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.6885 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-01"
+		(shape input)
+		(at 133.35 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43039fcc-e840-41ee-9cca-5237a85b8460")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7448 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-00"
+		(shape input)
+		(at 45.72 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43b7f6ea-587a-4a32-92a9-4e0a83fd6773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-13"
+		(shape input)
+		(at 158.75 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47bb73e0-91ac-4eb1-bb75-38db64f4a62e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7785 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-11"
+		(shape input)
+		(at 226.06 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "561b62f5-69dc-4d8e-a16a-4bab1e91f34b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-02"
+		(shape input)
+		(at 143.51 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "583dc3f4-120b-4de5-a3e4-b3f5dab8de88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 113.8985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-03"
+		(shape input)
+		(at 133.35 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "588a273d-e4c4-42e9-ab68-eb6ba938cd43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7448 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-10"
+		(shape input)
+		(at 158.75 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b997f5d-bab8-4886-a9bc-db2517bb2646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.6652 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-10"
+		(shape input)
+		(at 158.75 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64b36694-275f-4d9b-b941-187c1a59a8a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7785 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-11"
+		(shape input)
+		(at 273.05 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6536acca-2dfc-449f-860f-a77eba8b3a36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.0785 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-12"
+		(shape input)
+		(at 273.05 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fbf5c39-b5b2-4aff-be54-38411f4ac6bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.0785 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-12"
+		(shape input)
+		(at 158.75 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80163cfc-ff68-4e2b-b7f6-0f3dede2cc7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7785 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-04"
+		(shape input)
+		(at 142.24 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8096ba1c-83c0-4e85-b8d8-1cc5c0e33afd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-00"
+		(shape input)
+		(at 22.86 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b6aca04-3206-402e-b0b2-cf33fdedbb22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.8315 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-10"
+		(shape input)
+		(at 273.05 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e13a505-a4cb-411d-93d8-ec5a1a6986ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.0785 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-14"
+		(shape input)
+		(at 153.67 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97ab27af-abd9-4a90-a11d-b21d672278d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-11"
+		(shape input)
+		(at 158.75 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99f83183-060c-41a2-8cc5-f7e984143ba5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3552 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-00"
+		(shape input)
+		(at 133.35 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b076ab11-a6fc-4648-94ce-4e38b376a201")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7448 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-11"
+		(shape input)
+		(at 158.75 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0b7d39b-f989-43ad-9464-2cf1cc0c9f96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7785 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-04"
+		(shape input)
+		(at 133.35 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b79673f7-c791-4b0e-81c8-b6d11aca0031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7448 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-12"
+		(shape input)
+		(at 201.93 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9fad988-31a3-46d7-846d-f5a1b46f3899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-01"
+		(shape input)
+		(at 140.97 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d378b4c2-4f1c-4103-80a0-af1a89c61b6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 113.8985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-10"
+		(shape input)
+		(at 250.19 22.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3c9e176-53be-4913-a044-a8fff6b1f76c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 -55.0552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-03"
+		(shape input)
+		(at 146.05 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d46ae8c1-cf40-4fbe-8a35-29fe704473cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 113.8985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-02"
+		(shape input)
+		(at 93.98 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da9738c1-6bdb-4332-b470-83a3ffd072b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-01"
+		(shape input)
+		(at 22.86 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4bc72aa-34a3-4f62-95ea-2361b11c20f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.8315 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-03"
+		(shape input)
+		(at 118.11 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e80e484c-a6b8-4882-95d9-d6a7a39ef08f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-12"
+		(shape input)
+		(at 158.75 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eec20a56-6ae0-4f63-bc46-598a0e635229")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3552 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-02"
+		(shape input)
+		(at 133.35 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6f92a1b-0026-4b63-8215-1437bad6dc0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7448 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-00"
+		(shape input)
+		(at 133.35 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe150012-d351-4f48-9fce-c845f663cb4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.3215 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 95.25 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0018204d-2fdc-417a-bb88-9a1f4d1092b6")
+		(property "Reference" "S24"
+			(at 106.172 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 105.918 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 119.38 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 119.38 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 119.38 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 119.38 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 119.38 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 119.38 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 119.38 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55008db1-2174-42d8-8c05-003ff2c02fa7")
+		)
+		(pin "2"
+			(uuid "b3e2d391-7137-4eec-beb7-2c9af9c5a290")
+		)
+		(pin "3"
+			(uuid "3a4a5eb5-87fa-4995-890b-5f354f216a7f")
+		)
+		(pin "4"
+			(uuid "d89a701f-5dff-4b92-8bf3-c2079e76ef41")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 95.25 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "003fcbcb-7abf-4af3-8058-3f9763877db9")
+		(property "Reference" "S4"
+			(at 106.172 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 105.918 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 119.38 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 119.38 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 95.25 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 119.38 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 119.38 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 119.38 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 119.38 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 119.38 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac4cf16-de3b-49f2-a606-5408b7dff8a6")
+		)
+		(pin "2"
+			(uuid "01d3c27d-9a93-49dd-9a92-42096e032b73")
+		)
+		(pin "3"
+			(uuid "24926fca-4b27-46e9-9de1-4d1b17a0425f")
+		)
+		(pin "4"
+			(uuid "978eec98-09c3-4467-a196-89241c807660")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 200.66 27.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0073cdab-c271-4449-b45c-58d30d326276")
+		(property "Reference" "D7"
+			(at 199.644 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 198.12 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 200.66 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9ebecd-c842-42b9-b990-9e3089312b8c")
+		)
+		(pin "2"
+			(uuid "db846de3-94ea-47cb-a3bc-4c0cdff5da8d")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 273.05 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "026a76bc-78cc-46d1-86be-0b0932652958")
+		(property "Reference" "D20"
+			(at 272.034 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 270.51 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 273.05 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 273.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 273.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9b33a2-313b-4f59-a8d8-1b5d407e8301")
+		)
+		(pin "2"
+			(uuid "77b547fc-e276-484e-b4ca-9401ece16fb5")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 46.99 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14c81326-3279-4d14-9937-6e488ff10bdd")
+		(property "Reference" "D22"
+			(at 48.006 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 49.53 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 46.99 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "519305a6-fe9d-48c7-b76d-5cdc069ba293")
+		)
+		(pin "2"
+			(uuid "4b1e9c39-973f-4012-b5d9-1f540316bde2")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 22.86 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "154adcce-64be-40c1-89c5-e4b8f4dbb08e")
+		(property "Reference" "S21"
+			(at 33.782 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 33.528 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 46.99 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 46.99 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 46.99 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 46.99 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 46.99 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 46.99 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 46.99 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de97542-79ae-4606-994b-48584cd59340")
+		)
+		(pin "2"
+			(uuid "67786476-0250-40d1-b465-6b75a15e0c60")
+		)
+		(pin "3"
+			(uuid "fb0e1d21-695d-495b-b307-5fa261246095")
+		)
+		(pin "4"
+			(uuid "41648227-ad92-4e2c-a6ef-6e448f756a8d")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 227.33 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17e6a2eb-f1ef-4e3d-8e62-3f6f50fb2350")
+		(property "Reference" "S9"
+			(at 238.252 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 237.998 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 251.46 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 251.46 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 251.46 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 251.46 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 251.46 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 251.46 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 251.46 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "076af4e6-d09f-4910-8948-5a4d5eef04a7")
+		)
+		(pin "2"
+			(uuid "bdf83dd3-bf71-491d-a383-2354d40b9918")
+		)
+		(pin "3"
+			(uuid "be896cd2-1c05-46db-942b-03da5aa36969")
+		)
+		(pin "4"
+			(uuid "18882af5-cefc-45ac-8f8e-842effc937db")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 95.25 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c5b89c8-9d7c-467a-9590-8e65273a67d1")
+		(property "Reference" "S14"
+			(at 106.172 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 105.918 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 119.38 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 119.38 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 119.38 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 119.38 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 119.38 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 119.38 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 119.38 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e93d315c-c3c7-4626-8963-9b8965d0db36")
+		)
+		(pin "2"
+			(uuid "d7bcf68d-2e5a-4fbc-a80e-56e8ae53df4c")
+		)
+		(pin "3"
+			(uuid "dce55fb2-2594-44ec-a6cc-84e6e37da09f")
+		)
+		(pin "4"
+			(uuid "4522f1fc-2925-482f-a27c-a39844879026")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 179.07 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d0ba77b-c504-4eec-aa27-f03f46d2cda4")
+		(property "Reference" "S17"
+			(at 189.992 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 189.738 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 203.2 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 203.2 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 203.2 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 203.2 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 203.2 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 203.2 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 203.2 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02cfbe4c-eadb-42a2-b394-b1ebef24aa16")
+		)
+		(pin "2"
+			(uuid "2d9afda3-f103-43ca-9f76-32edf6573612")
+		)
+		(pin "3"
+			(uuid "95c756e7-2300-4407-ac99-5e1f6490cbff")
+		)
+		(pin "4"
+			(uuid "2bdfe3ad-9993-49bd-aff2-09f0e973a83e")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 154.94 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1da6d527-021e-40a4-9971-db188f787d3a")
+		(property "Reference" "S26"
+			(at 165.862 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 165.608 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 179.07 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 179.07 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 179.07 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 179.07 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 179.07 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 179.07 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 179.07 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98417d8-9752-474c-a63c-eaf0c155b76d")
+		)
+		(pin "2"
+			(uuid "fd79ff1f-fa6d-47f0-8b94-c58bd3249aea")
+		)
+		(pin "3"
+			(uuid "ccff67dc-48a6-45fb-b462-afc9efbb8a11")
+		)
+		(pin "4"
+			(uuid "f48368d7-918e-45ab-843e-dfc69feea87c")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 154.94 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "239f4a8e-8410-4227-90e4-d19c15fbe1e8")
+		(property "Reference" "S6"
+			(at 165.862 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 165.608 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 179.07 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 179.07 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 179.07 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 179.07 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 179.07 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 179.07 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 179.07 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6976c9b2-6db8-4b13-bfb8-4d9ec3c40fa1")
+		)
+		(pin "2"
+			(uuid "8d77b526-0923-48a8-babd-faedd65d764a")
+		)
+		(pin "3"
+			(uuid "64cbe944-2932-4181-b31c-fa7f6f941398")
+		)
+		(pin "4"
+			(uuid "9a10d66d-e4ff-4563-878d-c9b03c2182f8")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 95.25 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23d26978-18e3-48de-bfd5-485b6cb96f7e")
+		(property "Reference" "D31"
+			(at 96.266 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 97.79 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 95.25 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb3246b4-0730-43ff-b76b-862305e4d1a8")
+		)
+		(pin "2"
+			(uuid "ff3470c7-ac23-4f5b-ac04-6a1cff003423")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28461289-bd99-41d1-878e-62812260c061")
+		(property "Reference" "D5"
+			(at 120.396 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 121.92 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 119.38 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a679a1e-cb35-4896-ac2d-150120d1fa80")
+		)
+		(pin "2"
+			(uuid "388733b3-9e2f-43c7-af9a-36c4b20c579c")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 248.92 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b8304d6-9ce1-4eb6-90c5-403765f4c5eb")
+		(property "Reference" "D29"
+			(at 247.904 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 246.38 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 248.92 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40f1d93e-caa2-45ee-b948-6b0f94125da7")
+		)
+		(pin "2"
+			(uuid "070e3f2b-2b48-469f-a6b5-08bab1937143")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 154.94 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d316fa2-792b-4580-8cac-bde118131a91")
+		(property "Reference" "S16"
+			(at 165.862 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 165.608 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 179.07 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 179.07 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 154.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 179.07 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 179.07 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 179.07 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 179.07 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 179.07 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c99a494-efe9-4810-a68c-521ab0a9227a")
+		)
+		(pin "2"
+			(uuid "9240ef9b-7d07-490d-a638-0df7338a3da5")
+		)
+		(pin "3"
+			(uuid "ae7355f4-8f21-482b-a377-3a54d8e46848")
+		)
+		(pin "4"
+			(uuid "b2607269-ac91-4b0b-94e5-48465c3a6d54")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 95.25 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e114bd3-8907-4c35-b8db-9ee33247253e")
+		(property "Reference" "D14"
+			(at 96.266 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 97.79 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 95.25 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc5aea9-9293-4e5d-ac85-0242932a5331")
+		)
+		(pin "2"
+			(uuid "cdfbe20e-90b8-40be-9c50-957062d3e703")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4212e175-d68f-498a-9f85-c02cb1a115ac")
+		(property "Reference" "D25"
+			(at 120.396 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 121.92 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 119.38 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "796e80d7-09dd-43f0-995a-c1015cddb53b")
+		)
+		(pin "2"
+			(uuid "67359725-3ae8-4c59-88fa-a4bd8c10ea04")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 179.07 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46604701-895f-42e9-a836-397b38c3875f")
+		(property "Reference" "S7"
+			(at 189.992 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 189.738 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 203.2 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 203.2 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 179.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 203.2 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 203.2 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 203.2 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 203.2 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 203.2 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef3dc6f-9612-495f-9e61-651864693f3f")
+		)
+		(pin "2"
+			(uuid "71159b6f-b9d9-493a-b2eb-d4d844e56108")
+		)
+		(pin "3"
+			(uuid "7ed58aba-c9c7-498a-8127-62bda2ac715e")
+		)
+		(pin "4"
+			(uuid "460e73cf-e770-4af2-9771-d9e3adf66013")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 22.86 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "485c88fd-8e3a-4c2b-a455-e05eb1a8f78d")
+		(property "Reference" "S11"
+			(at 33.782 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 33.528 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 46.99 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 46.99 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 22.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 46.99 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 46.99 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 46.99 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 46.99 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 46.99 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6378e5d-e4d0-413f-aa2f-31befc36bb97")
+		)
+		(pin "2"
+			(uuid "d8a5a4d7-c6d9-4a24-80ea-02582ca72022")
+		)
+		(pin "3"
+			(uuid "6a0d93c2-38c6-4384-9280-fcfaa59d3303")
+		)
+		(pin "4"
+			(uuid "1a9f471d-1110-4ce8-a283-9ddbb2f13016")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 95.25 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b04b013-1e8c-4c91-b37f-cf54d16c1cbf")
+		(property "Reference" "D4"
+			(at 96.266 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 97.79 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 95.25 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f86b1955-9d9a-440b-8fe9-190bc210c107")
+		)
+		(pin "2"
+			(uuid "9845dd41-7fd1-4548-bdd4-52927ee9e052")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 22.86 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c53167c-488f-4382-972e-0a836d753a9c")
+		(property "Reference" "D21"
+			(at 23.876 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 25.4 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 22.86 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 22.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 22.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 22.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86410786-ab4e-4cba-ac03-6951017bea71")
+		)
+		(pin "2"
+			(uuid "4c7741c3-3ed9-4390-bed2-074e25eae69b")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 95.25 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5688a5a0-2a34-47f6-b0c6-134490a30579")
+		(property "Reference" "S31"
+			(at 106.172 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 105.918 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 119.38 155.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 119.38 255.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 119.38 455.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 119.38 555.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 119.38 655.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 119.38 755.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 119.38 855.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a37c6b-816d-4473-9609-9a673e578297")
+		)
+		(pin "2"
+			(uuid "ac6dcd0c-311c-4932-a92f-ae7022001f3d")
+		)
+		(pin "3"
+			(uuid "8a0fc3c2-5964-40d7-b28f-c3e3b5db3f96")
+		)
+		(pin "4"
+			(uuid "25342a9c-1a42-4232-8fc5-a39b068c461d")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 248.92 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a563a27-1813-47d9-88af-1f4667cddd66")
+		(property "Reference" "D19"
+			(at 247.904 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 246.38 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 248.92 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907d1cba-2f2a-4029-a865-14778bdbdb01")
+		)
+		(pin "2"
+			(uuid "5b5abb16-2402-44ec-ac77-aa943898a804")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 251.46 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "610503df-04ad-4f9d-86b7-e45c3b3fa845")
+		(property "Reference" "S30"
+			(at 262.382 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 262.128 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 275.59 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 275.59 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 275.59 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 275.59 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 275.59 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 275.59 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 275.59 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccdb4949-8c84-47f7-b2f2-94d7aa72e5f7")
+		)
+		(pin "2"
+			(uuid "d693effe-bf8d-44de-9254-15a3917c6786")
+		)
+		(pin "3"
+			(uuid "e28b73f3-c98b-4c8a-8b4b-e71a9dcb9011")
+		)
+		(pin "4"
+			(uuid "104243ab-86e2-446e-bb22-f4d745b2cb8a")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 46.99 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61fd4479-6395-46ae-9739-5c8e6474b8f1")
+		(property "Reference" "S12"
+			(at 57.912 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 57.658 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 71.12 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 71.12 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 71.12 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 71.12 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 71.12 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 71.12 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 71.12 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af56d43-9795-445f-8813-ee064b0f254e")
+		)
+		(pin "2"
+			(uuid "238adfde-4d48-4db6-afff-a355efa2e55a")
+		)
+		(pin "3"
+			(uuid "dd36261a-e25d-4ce2-9cc3-04c4a69b8750")
+		)
+		(pin "4"
+			(uuid "e0e9ac29-6c8a-4edd-b5ec-0d3c94559da2")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 176.53 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63e57caa-5ded-4288-9997-3d91f827e8ef")
+		(property "Reference" "D16"
+			(at 175.514 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 173.99 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 176.53 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4724fbae-b2f2-4c66-b35f-d17d8f8c842e")
+		)
+		(pin "2"
+			(uuid "867e01e5-e3e3-494b-9e48-045aeb639e17")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 224.79 27.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b78fd8f-a958-4aca-af6a-871799e6873b")
+		(property "Reference" "D8"
+			(at 223.774 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 222.25 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 224.79 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "909ce5a3-cd71-49ee-b143-4d663ec8e281")
+		)
+		(pin "2"
+			(uuid "850e1b67-8a38-47fa-bf60-d18ace6a2308")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 179.07 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c993f5a-f6ea-4ed5-93ee-86b681d4de9c")
+		(property "Reference" "S34"
+			(at 189.992 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 189.738 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 203.2 155.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 203.2 255.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 203.2 455.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 203.2 555.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 203.2 655.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 203.2 755.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 203.2 855.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bb05415-9f42-48dc-bc31-7424a31a627c")
+		)
+		(pin "2"
+			(uuid "168a2e50-157d-48f1-8ef8-530852f9b367")
+		)
+		(pin "3"
+			(uuid "d8231f1d-e66b-4199-8bda-3ae873337370")
+		)
+		(pin "4"
+			(uuid "5747757e-adb3-4dc2-a136-aa7f9ba28b18")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 273.05 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a207845-ea3d-454f-96fb-26ab95130b55")
+		(property "Reference" "D30"
+			(at 272.034 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 270.51 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 273.05 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 273.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 273.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e33f26da-304a-4b4f-a690-9a6532c7894d")
+		)
+		(pin "2"
+			(uuid "daced402-f216-4875-8184-04edd7a9c4ff")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 224.79 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ab5c446-37b3-452a-a3f7-8358b1ed0df5")
+		(property "Reference" "D18"
+			(at 223.774 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 222.25 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 224.79 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b13dcd02-cbfd-4fc4-9d34-939bbb4bf0b8")
+		)
+		(pin "2"
+			(uuid "e485994d-565f-4919-b8a9-e703d3e41fce")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 46.99 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bb76f4f-4ac6-48bb-8e33-ad033cb680c5")
+		(property "Reference" "D12"
+			(at 48.006 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 49.53 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 46.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c53e7e4-f906-473e-aa38-78f1c16f14cb")
+		)
+		(pin "2"
+			(uuid "189e58a2-f96c-4fd6-b1a6-953a58ea7979")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 71.12 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82be4991-c99b-451d-ab2f-f91096a09891")
+		(property "Reference" "S13"
+			(at 82.042 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 81.788 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 95.25 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 95.25 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 71.12 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 95.25 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 95.25 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 95.25 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 95.25 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 95.25 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a2930cb-5662-4a93-8d61-3b0df9cb9fb1")
+		)
+		(pin "2"
+			(uuid "78b06e2b-33ae-4297-930e-c92d2ba2f560")
+		)
+		(pin "3"
+			(uuid "b98ee5b4-0456-4656-91b1-cab392979d74")
+		)
+		(pin "4"
+			(uuid "10e8a061-9e0d-4c84-8308-31ec78d391d9")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 227.33 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83baccc6-5810-489a-9399-53c30672e6a7")
+		(property "Reference" "S29"
+			(at 238.252 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 237.998 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 251.46 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 251.46 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 227.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 251.46 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 251.46 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 251.46 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 251.46 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 251.46 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31d5aa65-ea4f-4a4b-9f4d-09d846f5b467")
+		)
+		(pin "2"
+			(uuid "d4557d16-288c-4ae4-8ec3-1ec6e0c42c71")
+		)
+		(pin "3"
+			(uuid "da5429c5-5aac-4bfc-b3d3-06219cb0e283")
+		)
+		(pin "4"
+			(uuid "549c8208-bd3a-44a2-8149-f52a650d36ba")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 119.38 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "875d9685-9667-474b-a3bd-0034dad510b0")
+		(property "Reference" "S25"
+			(at 130.302 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 130.048 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 143.51 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 143.51 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 143.51 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 143.51 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 143.51 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 143.51 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 143.51 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ade500c-5049-41e9-b774-3ee6f4666104")
+		)
+		(pin "2"
+			(uuid "5b1d71a4-e695-4df7-950b-254431d20095")
+		)
+		(pin "3"
+			(uuid "38ed64d1-7b36-47f8-9743-1630364f58a5")
+		)
+		(pin "4"
+			(uuid "d028b816-3ace-46d4-b8cf-12089aef901a")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 251.46 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c461de3-7bba-4b85-a456-908a059b2aa1")
+		(property "Reference" "S10"
+			(at 262.382 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 262.128 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 275.59 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 275.59 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 251.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 275.59 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 275.59 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 275.59 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 275.59 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 275.59 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6bccafe-8dda-4d32-a6ac-f772ac7ff2c9")
+		)
+		(pin "2"
+			(uuid "fd375dcd-d98c-415e-b3b2-70ec625e6db0")
+		)
+		(pin "3"
+			(uuid "c971e7e0-28e0-4066-9efc-ff1bbac652cb")
+		)
+		(pin "4"
+			(uuid "d20a3b41-d72c-45fe-8352-c75970258b29")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 203.2 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99c34652-4f43-4bfa-ac82-20ffbaacae54")
+		(property "Reference" "S28"
+			(at 214.122 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 213.868 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 227.33 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 227.33 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 227.33 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 227.33 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 227.33 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 227.33 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 227.33 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50e09542-50f7-40a5-971c-0bae432737eb")
+		)
+		(pin "2"
+			(uuid "117e92ed-3c14-4858-8866-6d77e61f0463")
+		)
+		(pin "3"
+			(uuid "2bfd93da-c989-420b-a7e5-10995f076132")
+		)
+		(pin "4"
+			(uuid "225b84ed-1f10-4964-bf8a-3fe4ffba6efd")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dc4e869-9f11-4668-968f-cc7f52ab5006")
+		(property "Reference" "D15"
+			(at 120.396 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 121.92 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 119.38 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad166ae3-1703-41e7-b9b1-0bb6c5483aca")
+		)
+		(pin "2"
+			(uuid "0224c72c-ec20-4a75-9751-faf5b80fa8e8")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 46.99 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e82d66d-b8a0-4012-ba39-8105a805003e")
+		(property "Reference" "S2"
+			(at 57.912 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 57.658 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 71.12 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 71.12 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 46.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 71.12 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 71.12 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 71.12 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 71.12 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 71.12 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b36fd3-3aa5-4de7-8757-fb0e77c413cf")
+		)
+		(pin "2"
+			(uuid "1554fd8c-1db6-4f69-9519-dc2168e9b3d3")
+		)
+		(pin "3"
+			(uuid "24b0dc56-f28a-4146-ab52-e7fd517182c7")
+		)
+		(pin "4"
+			(uuid "39861ebc-3c37-44cc-8bba-0de67a600d57")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 119.38 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e9b5919-d94d-4687-97c8-abcaf31ca4fe")
+		(property "Reference" "S5"
+			(at 130.302 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 130.048 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 143.51 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 143.51 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 119.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 143.51 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 143.51 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 143.51 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 143.51 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 143.51 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "201d5fbd-72f2-49b4-bbb6-286418373f98")
+		)
+		(pin "2"
+			(uuid "684218dd-145e-40e5-9dfc-c802f347f7b0")
+		)
+		(pin "3"
+			(uuid "6a7c683b-6a34-47d6-8d8f-a069da59686a")
+		)
+		(pin "4"
+			(uuid "d0f01774-e011-451a-8740-5c0f31d84529")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 176.53 66.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3143473-7b4a-4bdd-8fdb-93c68f6b931d")
+		(property "Reference" "D33"
+			(at 175.514 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 173.99 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 176.53 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 176.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca2d1b84-22b0-4f62-91a7-2732efcb7c6a")
+		)
+		(pin "2"
+			(uuid "9a4a2363-d857-4730-96ed-8291705ee17a")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 46.99 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6f222e3-a836-48e3-b13e-0ff49835f4e2")
+		(property "Reference" "D2"
+			(at 48.006 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 49.53 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 46.99 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0941f636-eb12-47b4-9e98-0c954ae901d2")
+		)
+		(pin "2"
+			(uuid "b2fa7fb9-d8dc-4891-b77f-6b60ea1c8932")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 22.86 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7989072-5384-4c98-8651-2047e069a231")
+		(property "Reference" "S1"
+			(at 33.782 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 33.528 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 46.99 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 46.99 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 22.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 46.99 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 46.99 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 46.99 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 46.99 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 46.99 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c4dc2dd-75e0-4cd3-bb5e-ecfd0786abaf")
+		)
+		(pin "2"
+			(uuid "563fcf81-9905-4b84-806b-c60d333935ef")
+		)
+		(pin "3"
+			(uuid "61fab760-2626-4ffa-8b94-fa4d06dd452b")
+		)
+		(pin "4"
+			(uuid "d856b205-3a07-4737-8d26-0958d4e4afd3")
+		)
+		(instances
+			(project ""
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 176.53 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab767e21-9ccd-4574-8ea1-1a58fde3abac")
+		(property "Reference" "D26"
+			(at 175.514 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 173.99 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 176.53 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b037b8f-e68e-4251-a4b0-9ef799a7d4b5")
+		)
+		(pin "2"
+			(uuid "58115282-3655-4f44-9d0f-94f11d31df35")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 71.12 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b143c172-2638-4cc0-936c-f65e6a3b63bd")
+		(property "Reference" "D3"
+			(at 72.136 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 73.66 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 71.12 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "717f1b27-24f7-4c37-930a-4b52ef90ec41")
+		)
+		(pin "2"
+			(uuid "4ddb2634-2ce0-4a21-b368-877f503f0e1e")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 119.38 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b482fd5a-0d59-485a-aefb-65834081a588")
+		(property "Reference" "S15"
+			(at 130.302 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 130.048 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 143.51 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 143.51 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 143.51 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 143.51 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 143.51 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 143.51 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 143.51 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52f9358d-387b-45d2-bf8a-07889738fd1d")
+		)
+		(pin "2"
+			(uuid "a317a3a8-1f91-4ada-8f13-53846c4ac1ac")
+		)
+		(pin "3"
+			(uuid "6971c87a-14f3-4392-9343-56452275115e")
+		)
+		(pin "4"
+			(uuid "19f02676-2622-42a3-aeb2-55d806a503c2")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 273.05 27.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8b3555-4bf9-41da-bb0d-cfbc3066efa2")
+		(property "Reference" "D10"
+			(at 272.034 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 270.51 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 273.05 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54fbd83-7ec5-42e6-a87f-d3017ff30c7a")
+		)
+		(pin "2"
+			(uuid "d1572889-85ab-4e22-bd0d-a5d971352fee")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 248.92 27.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be3795b6-2ca6-4a50-93f0-700e2f43d874")
+		(property "Reference" "D9"
+			(at 247.904 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 246.38 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 248.92 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31821fa4-34fa-4bdc-a7d0-8566318643a4")
+		)
+		(pin "2"
+			(uuid "87ee515f-0d53-4e5b-afbd-0dc71f232369")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 71.12 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c309e805-b18f-4f1f-ab24-fe94689a7cf3")
+		(property "Reference" "D23"
+			(at 72.136 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 73.66 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 71.12 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb1e0525-1da2-4caa-93a3-6d4f83dfafc0")
+		)
+		(pin "2"
+			(uuid "6734fec4-6fca-4ef9-814e-ca66e5c1480d")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 71.12 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c414b06a-3356-458e-83c2-f2e3ed1ab761")
+		(property "Reference" "S23"
+			(at 82.042 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 81.788 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 95.25 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 95.25 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 95.25 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 95.25 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 95.25 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 95.25 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 95.25 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f72e093d-06a6-486f-8e81-5d9e32ecd50e")
+		)
+		(pin "2"
+			(uuid "22ffd5a0-bb38-4412-bdb3-cd49506576ba")
+		)
+		(pin "3"
+			(uuid "1ef2853b-65d6-4fac-9d0f-4202e65728db")
+		)
+		(pin "4"
+			(uuid "1ae3e84a-a301-45f6-bb95-060e06312fb4")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 22.86 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5130ade-d4a6-4955-bd9e-da3b279902df")
+		(property "Reference" "D11"
+			(at 23.876 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 25.4 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 22.86 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad2e8d5e-a4fa-42a2-8c5d-5903a0cde550")
+		)
+		(pin "2"
+			(uuid "0cc085bd-2138-4cb8-abe5-76b829481bb5")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 71.12 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c98fc937-07f1-4b26-8016-3d09dacd0fbd")
+		(property "Reference" "D13"
+			(at 72.136 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 73.66 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 71.12 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba74192-cd4f-4e63-91db-7c395f38cf4e")
+		)
+		(pin "2"
+			(uuid "4fb3dd5d-753c-4004-adb1-97a3acf051f9")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 95.25 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb0834b2-0a36-4ce8-811b-a4d8378091b6")
+		(property "Reference" "D24"
+			(at 96.266 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 97.79 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 95.25 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f70fe6-2794-4119-a0d1-b73b6c26d67b")
+		)
+		(pin "2"
+			(uuid "e7499ae3-f742-463f-b683-d37a93543dbd")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 203.2 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb916afd-8343-4342-a3ff-9c73c4073f5d")
+		(property "Reference" "S8"
+			(at 214.122 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 213.868 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 227.33 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 227.33 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 203.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 227.33 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 227.33 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 227.33 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 227.33 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 227.33 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a5bb73-4d88-4748-a6cd-a16ff0fa06fa")
+		)
+		(pin "2"
+			(uuid "c5527b14-be87-429f-b903-e0557607b2b3")
+		)
+		(pin "3"
+			(uuid "0074a6e1-23d4-4cce-9ca4-0df507da6e09")
+		)
+		(pin "4"
+			(uuid "11a1258b-4f07-4d10-8312-cd2ca08a97b1")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 203.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc44cec9-82de-48c4-b97f-7fad02c81795")
+		(property "Reference" "S18"
+			(at 214.122 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 213.868 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 227.33 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 227.33 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 227.33 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 227.33 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 227.33 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 227.33 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 227.33 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0950c26a-5a3d-4965-bae6-2a48fbdd2dd9")
+		)
+		(pin "2"
+			(uuid "eb9a751f-eab1-4254-b795-135268b6e3d9")
+		)
+		(pin "3"
+			(uuid "8bc19f4e-2bc7-43f3-b82e-a7618e84f2f0")
+		)
+		(pin "4"
+			(uuid "dfb3ea75-c353-442a-97b8-9edf0d530e40")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 22.86 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d65968fb-4636-4a3e-a344-c4094465bcb5")
+		(property "Reference" "D1"
+			(at 23.876 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 25.4 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 22.86 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a54bb65-748e-4088-abf4-625fbb12e390")
+		)
+		(pin "2"
+			(uuid "1c486172-2927-4c30-b3ea-a15ca2da8bbd")
+		)
+		(instances
+			(project ""
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 200.66 66.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d80b2d0b-278a-48f8-a1af-2c45149409e2")
+		(property "Reference" "D34"
+			(at 199.644 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 198.12 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdba6200-b092-443e-bf69-48c476a1948f")
+		)
+		(pin "2"
+			(uuid "2aa3155f-35bc-4f8c-83cd-6ece12b575fe")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 251.46 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d88f3912-958a-44f1-9c51-4384d3f2aae0")
+		(property "Reference" "S20"
+			(at 262.382 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 262.128 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 275.59 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 275.59 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 275.59 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 275.59 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 275.59 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 275.59 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 275.59 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7bd0d76-de1c-4dd0-9f12-f7293dbf2e75")
+		)
+		(pin "2"
+			(uuid "ee3feece-d6db-4a2c-bc19-64e3f1ac9190")
+		)
+		(pin "3"
+			(uuid "a9554ec2-50a1-4657-b849-8e7a76541fa4")
+		)
+		(pin "4"
+			(uuid "b828f7b1-0ec0-4983-8029-d909f1c75976")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 71.12 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d8a756-d837-4f90-9ce9-6478839e439a")
+		(property "Reference" "S3"
+			(at 82.042 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 81.788 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 95.25 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 95.25 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 71.12 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 95.25 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 95.25 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 95.25 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 95.25 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 95.25 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abdb3da5-9665-480e-8131-bec80e0a4709")
+		)
+		(pin "2"
+			(uuid "09045dcc-4ef4-4933-a0c8-ca7726867850")
+		)
+		(pin "3"
+			(uuid "4a28df43-77f0-4df2-bbc5-1ceb41506fdb")
+		)
+		(pin "4"
+			(uuid "b530995b-a548-4436-ad35-9e33c84c1a85")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 119.38 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09306a9-eb66-4ada-9420-bd931b19ac96")
+		(property "Reference" "S32"
+			(at 130.302 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 130.048 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 143.51 155.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 143.51 255.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 143.51 455.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 143.51 555.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 143.51 655.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 143.51 755.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 143.51 855.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd98171a-56d2-4bbb-b5a4-48bd775c460d")
+		)
+		(pin "2"
+			(uuid "b6a50e0e-6db1-4372-9840-d98e076f7c28")
+		)
+		(pin "3"
+			(uuid "a7b67dea-edf3-4056-87a8-34716bdf9d57")
+		)
+		(pin "4"
+			(uuid "ba77ca42-70c9-424f-a70c-9390d600134d")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 176.53 27.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2252ad3-7d21-4a60-91bf-6501abfc931f")
+		(property "Reference" "D6"
+			(at 175.514 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 173.99 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 176.53 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 176.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0387fa3c-84ab-4d7b-8114-d2dc51a5c7c8")
+		)
+		(pin "2"
+			(uuid "77ea16a4-f690-463c-b64b-f5b8f0e481c9")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 200.66 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3ef7d79-075e-47bb-a25c-f8ec63c4e01b")
+		(property "Reference" "D17"
+			(at 199.644 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 198.12 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 200.66 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28dd086f-f374-4862-8063-e7c0738fd725")
+		)
+		(pin "2"
+			(uuid "87ad6810-9a2e-4c6d-ba84-3ca8eaa94783")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 227.33 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5b5c026-99ee-433c-a583-6083f59d1c93")
+		(property "Reference" "S19"
+			(at 238.252 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 237.998 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 251.46 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 251.46 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 227.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 251.46 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 251.46 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 251.46 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 251.46 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 251.46 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3eee82e-6b48-4849-b729-40e9c24c69f3")
+		)
+		(pin "2"
+			(uuid "9ce9f480-5ea6-4b22-8262-6027bac013e4")
+		)
+		(pin "3"
+			(uuid "4c84c759-c9e6-4abc-a2b9-3b4ee8036eae")
+		)
+		(pin "4"
+			(uuid "5413dc95-248c-43a0-8c97-a4299f541b73")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mcu:rp2040-zero")
+		(at 146.05 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea19843f-11af-4d10-ae4b-f1a6f29d7c90")
+		(property "Reference" "U1"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "rp2040-zero"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mcu:rp2040-zero-tht"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "ac728269-585b-45fe-9421-454b6ba640b2")
+		)
+		(pin "18"
+			(uuid "8171cc21-79e4-4497-810b-e206d0633495")
+		)
+		(pin "22"
+			(uuid "aea81500-d9b8-4655-b53d-fd0948eaa83f")
+		)
+		(pin "20"
+			(uuid "78639cae-4c55-4086-845a-dd83d3da9d8d")
+		)
+		(pin "9"
+			(uuid "536a73f4-b1b1-4322-868e-cbfe1436d0a0")
+		)
+		(pin "19"
+			(uuid "4885b55e-20d4-426f-838c-a401273f33a3")
+		)
+		(pin "21"
+			(uuid "9a07a7cb-b22b-4d35-8cfd-def2a2d4a5e7")
+		)
+		(pin "8"
+			(uuid "9490b45a-3532-4122-8716-d49f5f72001a")
+		)
+		(pin "5"
+			(uuid "cf15b0d0-37de-44b1-915c-f35cb48c45ab")
+		)
+		(pin "1"
+			(uuid "ecb0fe76-cd34-4b6d-851a-350d804671ed")
+		)
+		(pin "11"
+			(uuid "1b1ef745-910a-48db-b31f-d6af1a293a0d")
+		)
+		(pin "17"
+			(uuid "7b6da8b3-8fd9-4393-afcc-12a23b8d971a")
+		)
+		(pin "12"
+			(uuid "4dc7848f-e9d2-4455-a7e4-24731517ebb6")
+		)
+		(pin "13"
+			(uuid "5945a869-75be-46a3-88cb-53366d40a734")
+		)
+		(pin "6"
+			(uuid "b97d1832-3233-4fa7-a60d-9cb8b70401f9")
+		)
+		(pin "16"
+			(uuid "ab56664b-3c58-4a23-aaad-c5efd4af16ea")
+		)
+		(pin "3"
+			(uuid "fc980e72-4d64-4847-8dd5-55ac63d2ae00")
+		)
+		(pin "14"
+			(uuid "6f0e0b7c-99af-41c1-9109-c8fafe80b337")
+		)
+		(pin "10"
+			(uuid "f95611cf-0a15-45b2-8403-1357b35199f7")
+		)
+		(pin "23"
+			(uuid "3f780202-78a0-49a1-b5e5-0952d4b67d2e")
+		)
+		(pin "2"
+			(uuid "63d610ef-075a-402e-94b4-1171a2a24368")
+		)
+		(pin "7"
+			(uuid "53fa79a6-a1bc-4150-a157-7f3ed3fda78b")
+		)
+		(pin "4"
+			(uuid "59473e6b-5779-4c99-a6a7-ed4be618fe9b")
+		)
+		(instances
+			(project ""
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 154.94 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2a65643-23f0-419a-b6a9-bb8afa13bbf8")
+		(property "Reference" "S33"
+			(at 165.862 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 165.608 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 179.07 155.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 179.07 255.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 179.07 455.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 179.07 555.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 179.07 655.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 179.07 755.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 179.07 855.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9917749-e159-4f6f-a3b4-09f70457d8b2")
+		)
+		(pin "2"
+			(uuid "73631354-d381-4610-9f83-a15eed1956a6")
+		)
+		(pin "3"
+			(uuid "0b56d5cd-543e-4fa8-94a5-5a11c8b770f8")
+		)
+		(pin "4"
+			(uuid "81cc6651-5eab-434d-9de7-166f78567ed7")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 179.07 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3354e41-0863-490e-9526-7e29b1bd0b29")
+		(property "Reference" "S27"
+			(at 189.992 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 189.738 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 203.2 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 203.2 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 203.2 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 203.2 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 203.2 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 203.2 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 203.2 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "825f1468-fd90-414e-9182-176d02943176")
+		)
+		(pin "2"
+			(uuid "f062d5f2-ece6-47fa-816d-2205dc19d0ca")
+		)
+		(pin "3"
+			(uuid "9ac04689-ed00-46a0-82ce-7c28905488dd")
+		)
+		(pin "4"
+			(uuid "83c1fd4a-2467-4455-9a23-107ddc26e4b4")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6e22354-7ab8-4915-b028-31d0e71babcc")
+		(property "Reference" "D32"
+			(at 120.396 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 121.92 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 119.38 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b55183e7-b7f2-4874-99d9-ed8663cad113")
+		)
+		(pin "2"
+			(uuid "cfe4518d-6a30-4898-a73f-f4570bd69549")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SKHCBKA010:SKHCBKA010")
+		(at 46.99 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81f2f2b-6678-4932-88af-0451647e0a2e")
+		(property "Reference" "S22"
+			(at 57.912 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKHCBKA010"
+			(at 57.658 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:SKHCBKA010"
+			(at 71.12 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHCBKA010_C219781.pdf"
+			(at 71.12 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50 mAmps at 12 Volts"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 71.12 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKHCBKA010"
+			(at 71.12 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHCBKA010?qs=6EGMNY9ZYDSN2DHLA%252BDAng%3D%3D"
+			(at 71.12 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 71.12 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKHCBKA010"
+			(at 71.12 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2cc883c-60dd-4fe8-b182-3185ea5de3c2")
+		)
+		(pin "2"
+			(uuid "846f81d5-3262-4440-ac87-3023385c452a")
+		)
+		(pin "3"
+			(uuid "a81dafbf-8ef4-4ca2-8451-ed75a90199f4")
+		)
+		(pin "4"
+			(uuid "9f3227d6-5faa-4de5-adc6-ee962b6d57e4")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 200.66 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb1f8509-5ec5-4514-b999-84d13516d770")
+		(property "Reference" "D27"
+			(at 199.644 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 198.12 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 200.66 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af16728b-ebcd-46f7-b978-0f57405e47f4")
+		)
+		(pin "2"
+			(uuid "00770f3a-717d-4991-a91f-c3c13e189e44")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 224.79 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd798f2-09fc-4d6b-94e1-f2cd7354414d")
+		(property "Reference" "D28"
+			(at 223.774 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 222.25 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 224.79 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 224.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20af70a-a1df-403c-ba6d-350acc717ecd")
+		)
+		(pin "2"
+			(uuid "c914d56a-92b2-4694-9d49-efd91b177851")
+		)
+		(instances
+			(project "minikeeb"
+				(path "/d633af04-c6ac-496a-95e8-d38b6b74da1f"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
