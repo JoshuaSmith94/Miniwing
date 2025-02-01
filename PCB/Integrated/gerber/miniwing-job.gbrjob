@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.7-8.0.7-0~ubuntu22.04.1"
+      "Version": "8.0.8-8.0.8-0~ubuntu22.04.1"
     },
-    "CreationDate": "2025-01-04T18:43:15+00:00"
+    "CreationDate": "2025-02-01T00:20:31+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "minikeeb",
-      "GUID": "6d696e69-6b65-4656-922e-6b696361645f",
-      "Revision": "rev?"
+      "Name": "miniwing",
+      "GUID": "6d696e69-7769-46e6-972e-6b696361645f",
+      "Revision": "1"
     },
     "Size": {
-      "X": 184.6867,
-      "Y": 86.5649
+      "X": 174.3713,
+      "Y": 84.4869
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,52 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "minikeeb-F_Cu.gbr",
+      "Path": "miniwing-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "minikeeb-B_Cu.gbr",
+      "Path": "miniwing-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "minikeeb-F_Paste.gbr",
+      "Path": "miniwing-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "minikeeb-B_Paste.gbr",
+      "Path": "miniwing-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "minikeeb-F_Silkscreen.gbr",
+      "Path": "miniwing-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "minikeeb-B_Silkscreen.gbr",
+      "Path": "miniwing-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "minikeeb-F_Mask.gbr",
+      "Path": "miniwing-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "minikeeb-B_Mask.gbr",
+      "Path": "miniwing-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "minikeeb-Edge_Cuts.gbr",
+      "Path": "miniwing-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
